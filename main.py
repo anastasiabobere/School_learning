@@ -16,5 +16,5 @@ class Dzivnieks:
         return self.sound
 
 
-tigeris = Dzivnieks("tigeris", 4, "big cat")
+tigeris = Dzivnieks("tigeris", 4, "cat")
 print(tigeris.skanja())

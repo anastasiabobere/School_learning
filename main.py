@@ -41,7 +41,6 @@ class Papagailis(Dzivnieks):
 
     def skanja(self):
         return "Hello how are you doing?"
-# List of animals
 dzivnieki = [
     Kakis("Cat1", 4),
     Kakis("Cat2", 7),
@@ -49,8 +48,6 @@ dzivnieki = [
     Govs("Gauja", 4), 
     Papagailis("Chika", 2)
 ]
-
-# Loop through animals and print info
 for animal in dzivnieki:
     print(animal)
     print(f"{animal.skanja()} - pateica {animal.name}")

@@ -1,4 +1,6 @@
 class Doctorate:
+    name="N/A"
+    pacientuSkaits=0
     def __init__(self, name="N/A", pacientuSkaits=0):
         self.name= name
         self.pacientuSkaits = pacientuSkaits

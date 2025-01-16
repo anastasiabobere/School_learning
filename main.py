@@ -1,7 +1,8 @@
 class Dzivnieks:
     def __init__(self, name, kajas):
-        self.name = name
+        self.name =name
         self.kajas = kajas
+        self.sound= "random animal noise"
 
     def skanja(self):
         return self.sound
@@ -17,11 +18,16 @@ class Suns(Dzivnieks):
 class Kakis(Dzivnieks):
     def __init__(self, name, kajas):
         super().__init__(name, kajas)
+        self.name = "Minkāns "+ self.name
         self.sound = "meow"
 
 s1 = Suns("Arnold", 4)
+
 d1 = Dzivnieks("Gauja", 6)
-print(d1)
+# print(d1)
+# d1.skanja()
 dzivnieki =[Kakis("Cat1", 4),Kakis("Cat2", 7), Suns("Suns1", 3), Dzivnieks("Arnolds", 9)]
 for animal in dzivnieki:
     print(animal)
+    print(f"{animal.skanja()} - pateica {animal.name}")
+    print("###########")

@@ -40,7 +40,6 @@ class VidusskolasSkolotajs(Skolotajs):
         self.otraisPrieksmets = otraisPrieksmets
         self.pirmaisPrieksmetsStunduSkaits = pirmaisPrieksmetsStunduSkaits
         self.otraisPrieksmetsStunduSkaits = otraisPrieksmetsStunduSkaits
-        self.stunduSkaitsNedela = pirmaisPrieksmetsStunduSkaits + otraisPrieksmetsStunduSkaits
 
     def ievads(self):
         self.uzvards = input("Ievadiet vidusskolas skolotāja uzvārdu: ")
@@ -56,9 +55,9 @@ class VidusskolasSkolotajs(Skolotajs):
 
 
 
-# d2 = VidusskolasSkolotajs()
-# d2.ievads()
-# d2.izvade()
+d2 = VidusskolasSkolotajs()
+d2.ievads()
+d2.izvade()
 d1 = SakumsskolasSkolotajs()
 d1.ievads()
 d1.izvade()

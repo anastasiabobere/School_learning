@@ -10,9 +10,7 @@ class Doctorate:
             self.pacientuSkaits=int( input("Ievadiet pacientu skaitu: "))
         except:
             self.pacientuSkaits =0
-            print("Ievadiet veselus skaitlus")
-        # finally:
-        #     print("ievade veiksmiga", self.pacientuSkaits)    
+            print("Ievadiet veselus skaitlus")   
     def izvade(self):
         addition =""
 

@@ -13,4 +13,8 @@ class Vehicle :
                f"Degvielas veids: {self.degvielas_veids}"
       
 d1 = Vehicle("Audi","A4","22.10.2019",2000,"BG")
-print(d1)
+print(isinstance(d1, Vehicle))  # True
+print(isinstance(d1, (list, tuple))) # False
+print(isinstance(d1, (list, tuple, Vehicle))) # True
+print(isinstance(d1, (list, tuple, object))) # True
+# print(d1)

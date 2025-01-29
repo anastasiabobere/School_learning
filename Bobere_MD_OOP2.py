@@ -1,4 +1,6 @@
 class Augi:
+    nosaukums = "N/A"
+    dauzums = 0
     def __init__(self, nosaukums, dauzums):
         self.nosaukums = nosaukums
         self.dauzums = dauzums
@@ -7,6 +9,7 @@ class Augi:
         return f"{self.nosaukums}, {self.dauzums} grami"
 
 class Augļi(Augi):
+    seklu_skaits = 0
     def __init__(self, nosaukums, dauzums, seklu_skaits):
         super().__init__(nosaukums, dauzums)
         self.seklu_skaits = seklu_skaits
@@ -15,6 +18,7 @@ class Augļi(Augi):
         return f"{self.nosaukums}, {self.dauzums} grami, {self.seklu_skaits} sēklas uz 10 gramiem"
 
 class Dārzeņi(Augi):
+    allergija= "N/A"
     def __init__(self, allergija, nosaukums, dauzums):
         super().__init__(nosaukums, dauzums)
         self.allergija = allergija
@@ -27,6 +31,7 @@ class Dārzeņi(Augi):
         return f"{self.nosaukums}, {self.dauzums} grami, {status}"
 
 class Puķes(Augi):
+    ziedu_skaits= 0 
     def __init__(self, ziedu_skaits, nosaukums, dauzums):
         super().__init__(nosaukums, dauzums)
         self.ziedu_skaits = ziedu_skaits
@@ -35,6 +40,7 @@ class Puķes(Augi):
         return f"{self.nosaukums}, {self.dauzums} grami, {self.ziedu_skaits} ziedi"
 
 class Recepte:
+    nosaukums = "N/A "
     def __init__(self, nosaukums):
         self.nosaukums = nosaukums
         self.augi = []

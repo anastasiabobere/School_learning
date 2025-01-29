@@ -46,7 +46,11 @@ class Recepte:
         self.augi = []
         self.allergija = False
         self.derigums = True
-
+    def kopeja_masa(self):
+        kopeja_masa = 0
+        for aug in self.augi:
+            kopeja_masa += aug.dauzums
+        return kopeja_masa
     def pievienot_augu(self, aug):
         self.augi.append(aug)
 
@@ -63,6 +67,7 @@ class Recepte:
         print(f"Recepte: {self.nosaukums}")
         for aug in self.augi:
             print(f"* {aug}")
+        print(f"Kopējā masa: {self.kopeja_masa()} grami")
         print("###########")
         if self.allergija:
             status = "alerģiju izraisa"

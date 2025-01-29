@@ -22,3 +22,4 @@ d2.add_actor("Leonardo Dicaprio")
 d2.add_actor("Oliver Elliot")
 d2.add_actor("Anastasia Bobere")
 d2.out()
+# checking if merge works 

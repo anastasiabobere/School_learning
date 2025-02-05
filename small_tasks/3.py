@@ -4,8 +4,4 @@ def prime_factorization(number):
         print(2)
         number // 2
     
-    
-
-
-
 prime_factorization(4)

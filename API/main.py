@@ -5,4 +5,5 @@ x= requests.get(f"https://api.genderize.io?name={name}")
 data = x.json()
 gender = data["gender"]
 probability = data["probability"]
+print(data)
 print(f"The probabilty of {name} being {gender} is {probability} ")

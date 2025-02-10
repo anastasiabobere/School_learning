@@ -1,0 +1,127 @@
+9. Find Common Elements in Two Lists
+
+Write a function that takes two lists and returns a list of elements that are common to both lists.
+
+Example:
+python
+Copy
+
+common_elements([1, 2, 3, 4], [3, 4, 5, 6])  # Output: [3, 4]
+
+10. Generate a Multiplication Table
+
+Write a function that generates a multiplication table for a given number up to a specified limit.
+
+Example:
+python
+Copy
+
+multiplication_table(5, 10)
+# Output:
+# 5 x 1 = 5
+# 5 x 2 = 10
+# ...
+# 5 x 10 = 50
+
+11. Count Words in a Sentence
+
+Write a function that takes a sentence and returns the number of words in it.
+
+Example:
+python
+Copy
+
+count_words("Hello world!")  # Output: 2
+
+12. Find the Second Largest Number in a List
+
+Write a function that finds the second largest number in a list.
+
+Example:
+python
+Copy
+
+second_largest([3, 7, 2, 9, 4])  # Output: 7
+
+13. Remove Duplicates from a List
+
+Write a function that removes duplicate elements from a list and returns the new list.
+
+Example:
+python
+Copy
+
+remove_duplicates([1, 2, 2, 3, 4, 4, 5])  # Output: [1, 2, 3, 4, 5]
+
+14. Check if Two Strings are Anagrams
+
+Write a function that checks if two strings are anagrams (contain the same characters in a different order).
+
+Example:
+python
+Copy
+
+are_anagrams("listen", "silent")  # Output: True
+are_anagrams("hello", "world")    # Output: False
+
+15. Generate Fibonacci Sequence
+
+Write a function that generates the first n numbers in the Fibonacci sequence.
+
+Example:
+python
+Copy
+
+fibonacci(5)  # Output: [0, 1, 1, 2, 3]
+
+16. Find the Longest Word in a Sentence
+
+Write a function that finds the longest word in a given sentence.
+
+Example:
+python
+Copy
+
+longest_word("I love programming in Python")  # Output: "programming"
+
+17. Check if a Number is Even or Odd
+
+Write a function that checks if a number is even or odd.
+
+Example:
+python
+Copy
+
+check_even_odd(7)  # Output: "Odd"
+check_even_odd(10) # Output: "Even"
+
+18. Calculate the Area of a Circle
+
+Write a function that calculates the area of a circle given its radius.
+
+Example:
+python
+Copy
+
+area_of_circle(5)  # Output: 78.53981633974483
+
+19. Find the Average of a List of Numbers
+
+Write a function that calculates the average of a list of numbers.
+
+Example:
+python
+Copy
+
+average([1, 2, 3, 4, 5])  # Output: 3.0
+
+20. Check if a Year is a Leap Year
+
+Write a function that checks if a given year is a leap year.
+
+Example:
+python
+Copy
+
+is_leap_year(2020)  # Output: True
+is_leap_year(2021)  # Output: False

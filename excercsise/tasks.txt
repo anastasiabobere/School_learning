@@ -1,20 +1,4 @@
 
-
-10. Generate a Multiplication Table
-
-Write a function that generates a multiplication table for a given number up to a specified limit.
-
-Example:
-python
-Copy
-
-multiplication_table(5, 10)
-# Output:
-# 5 x 1 = 5
-# 5 x 2 = 10
-# ...
-# 5 x 10 = 50
-
 11. Count Words in a Sentence
 
 Write a function that takes a sentence and returns the number of words in it.

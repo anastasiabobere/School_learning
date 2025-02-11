@@ -1,14 +1,6 @@
-15. Generate Fibonacci Sequence
 
-Write a function that generates the first n numbers in the Fibonacci sequence.
 
-Example:
-python
-Copy
-
-fibonacci(5)  # Output: [0, 1, 1, 2, 3]
-
-16. Find the Longest Word in a Sentence
+    16. Find the Longest Word in a Sentence
 
 Write a function that finds the longest word in a given sentence.
 
@@ -18,7 +10,7 @@ Copy
 
 longest_word("I love programming in Python")  # Output: "programming"
 
-17. Check if a Number is Even or Odd
+    17. Check if a Number is Even or Odd
 
 Write a function that checks if a number is even or odd.
 
@@ -29,7 +21,7 @@ Copy
 check_even_odd(7)  # Output: "Odd"
 check_even_odd(10) # Output: "Even"
 
-18. Calculate the Area of a Circle
+    18. Calculate the Area of a Circle
 
 Write a function that calculates the area of a circle given its radius.
 
@@ -39,7 +31,7 @@ Copy
 
 area_of_circle(5)  # Output: 78.53981633974483
 
-19. Find the Average of a List of Numbers
+    19. Find the Average of a List of Numbers
 
 Write a function that calculates the average of a list of numbers.
 
@@ -49,7 +41,7 @@ Copy
 
 average([1, 2, 3, 4, 5])  # Output: 3.0
 
-20. Check if a Year is a Leap Year
+    20. Check if a Year is a Leap Year
 
 Write a function that checks if a given year is a leap year.
 

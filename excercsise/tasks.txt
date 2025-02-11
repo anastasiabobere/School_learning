@@ -1,15 +1,4 @@
 
-
-    16. Find the Longest Word in a Sentence
-
-Write a function that finds the longest word in a given sentence.
-
-Example:
-python
-Copy
-
-longest_word("I love programming in Python")  # Output: "programming"
-
     17. Check if a Number is Even or Odd
 
 Write a function that checks if a number is even or odd.

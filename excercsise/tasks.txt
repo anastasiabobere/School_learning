@@ -1,12 +1,4 @@
-    18. Calculate the Area of a Circle
 
-Write a function that calculates the area of a circle given its radius.
-
-Example:
-python
-Copy
-
-area_of_circle(5)  # Output: 78.53981633974483
 
     19. Find the Average of a List of Numbers
 

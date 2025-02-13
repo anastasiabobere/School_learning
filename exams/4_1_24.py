@@ -1,16 +1,24 @@
-import csv
-with open("agenti.csv", "r", encoding='utf-8') as csv_file:
-    csv_reader = csv.reader(csv_file, delimiter=";",quotechar="|")
-    # for line in csv_reader:
-    #     print(line)
-    dati = [row for row in csv_reader]
+import csv 
+with open("agenti.csv", "r", encoding="utf-8") as file:
+    reader= csv.reader(file, delimiter=";")
+    dati = [ row for row in reader] 
+    def atvert(datus):
+        for line in datus:
+            print(line)
+    iestades_valsts = [ row for row in dati if row[0] in ["Izglītības iestāde", "Valsts iestāde"]]
+    def tikai_iestades_un_valsts(datus):
+        for row in datus:
+            print(row)
+    rigas_iestades= [row for row in iestades_valsts if "Rīga" in row[2] ]
+    def tikai_riga(datus):
 
-    iestades =[row for row in dati if row[0] in ['Izglītības iestāde', 'Valsts iestāde']]
-    for row in iestades:
-        print(iestades)
-    riga = [row for row in iestades if 'Rīga' in row[2]]
-    for row in riga:
-        print(row)
-    sorted = sorted(riga, key=lambda x:x[1])
-    for row in sorted:
-        print(f"{row[1]} - {row[2]}")
+        for line in datus:
+            print(line)
+    sorted= sorted(rigas_iestades, key=lambda x:x[1])
+    def izvadit_sorted(datus):
+        for line in datus:
+            print(f"{line[1]} -{line[0]}- {line[2]}")
+atvert(dati)
+tikai_iestades_un_valsts(iestades_valsts)
+tikai_riga(rigas_iestades)
+izvadit_sorted(sorted)

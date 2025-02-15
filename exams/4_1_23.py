@@ -4,13 +4,21 @@ data = response.json()
 
 if response.status_code !=200:
     raise Exception("Rādas kļuda pieprsijuma:", response.status_code)
+
 print(len(data))
-for main in data:
-    print(main)
+
 needed_data = data["result"]["records"]
-for row in needed_data:
-    # print(row)
-    # print("------------------------")
-    print(row.get('8 : Baterijas un akumulatori'))
-    # if row.get('8 : Baterijas un akumulatori') == 'x':
-    #     print(row)
+def print_locations(data, material_key, material_name):
+    print(f"Šeit var nodot {material_name}:")
+    for row in data:
+        if row.get(material_key) == 'x':
+            print(f"{row.get('adrese', ' ')} - {row.get('pilsetanovads', ' ')}")
+    print("----------------")
+print_locations(needed_data, '2 : Stikls', 'stiklu')
+print_locations(needed_data, '3 : Metāls', 'metālu')
+print_locations(needed_data, '10 : Nolietotās riepas', 'riepas')
+
+# empty strings
+# for row in needed_data:
+#     print(row.get("10 : Nolietotās riepas"))
+#     print(row.get('8 : Baterijas un akumulatori'))

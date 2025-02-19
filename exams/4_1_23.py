@@ -19,9 +19,4 @@ print_locations(needed_data, '3 : Metāls', 'metālu')
 print_locations(needed_data, '10 : Nolietotās riepas', 'riepas')
 print_locations(needed_data, '8 : Baterijas un akumulatori', 'baterijas')
 
-# # empty strings ???????
-# for row in needed_data:
-#     print(row.get("10 : Nolietotās riepas"))
-#     print(row.get('8 : Baterijas un akumulatori'))
-#     print(row.get('2 : Stikls'))
       

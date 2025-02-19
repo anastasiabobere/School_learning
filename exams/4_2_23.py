@@ -1,4 +1,3 @@
-# Define the Latvian alphabet and their corresponding positions
 LATVIAN_ALPHABET = {
     'A': 1, 'Ā': 2, 'B': 3, 'C': 4, 'Č': 5, 'D': 6, 'E': 7, 'Ē': 8,
     'F': 9, 'G': 10, 'Ģ': 11, 'H': 12, 'I': 13, 'Ī': 14, 'J': 15,

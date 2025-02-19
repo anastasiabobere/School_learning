@@ -5,7 +5,7 @@ data = response.json()
 if response.status_code !=200:
     raise Exception("Rādas kļuda pieprsijuma:", response.status_code)
 
-print(len(data))
+# print(len(data))
 
 needed_data = data["result"]["records"]
 def print_locations(data, material_key, material_name):
@@ -17,8 +17,9 @@ def print_locations(data, material_key, material_name):
 print_locations(needed_data, '2 : Stikls', 'stiklu')
 print_locations(needed_data, '3 : Metāls', 'metālu')
 print_locations(needed_data, '10 : Nolietotās riepas', 'riepas')
+print_locations(needed_data, '8 : Baterijas un akumulatori', 'baterijas')
 
-# empty strings
+# empty strings ???????
 # for row in needed_data:
 #     print(row.get("10 : Nolietotās riepas"))
-#     print(row.get('8 : Baterijas un akumulatori'))
+#     # print(row.get('8 : Baterijas un akumulatori'))

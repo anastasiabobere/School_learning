@@ -1,0 +1,82 @@
+[
+  {
+    "web_pages": ["http://www.mga.edu/"],
+    "alpha_two_code": "US",
+    "country": "United States",
+    "state-province": null,
+    "name": "Middle Georgia State College",
+    "domains": ["mga.edu"]
+  },
+  {
+    "web_pages": ["http://www.metu.edu.tr/"],
+    "alpha_two_code": "TR",
+    "country": "Turkey",
+    "state-province": null,
+    "name": "Middle East Technical University",
+    "domains": ["metu.edu.tr"]
+  },
+  {
+    "web_pages": ["http://www.meu.edu.jo/"],
+    "alpha_two_code": "JO",
+    "country": "Jordan",
+    "state-province": null,
+    "name": "Middle East University",
+    "domains": ["meu.edu.jo"]
+  },
+  {
+    "web_pages": ["http://www.mtsu.edu/"],
+    "alpha_two_code": "US",
+    "country": "United States",
+    "state-province": null,
+    "name": "Middle Tennessee State University",
+    "domains": ["mtsu.edu"]
+  },
+  {
+    "web_pages": ["http://www.middlebury.edu/"],
+    "alpha_two_code": "US",
+    "country": "United States",
+    "state-province": null,
+    "name": "Middlebury College",
+    "domains": ["middlebury.edu"]
+  },
+  {
+    "web_pages": ["http://www.aum.edu.kw/"],
+    "alpha_two_code": "KW",
+    "country": "Kuwait",
+    "state-province": null,
+    "name": "American University of Middle East",
+    "domains": ["aum.edu.kw"]
+  },
+  {
+    "web_pages": ["https://www.mbro.ac.uk/"],
+    "alpha_two_code": "GB",
+    "country": "United Kingdom",
+    "state-province": null,
+    "name": "Middlesbrough College",
+    "domains": ["middlesbro.ac.uk", "mbro.ac.uk"]
+  },
+  {
+    "web_pages": ["https://www.mdx.ac.uk/"],
+    "alpha_two_code": "GB",
+    "country": "United Kingdom",
+    "state-province": null,
+    "name": "Middlesex University - London",
+    "domains": ["mdx.ac.uk"]
+  },
+  {
+    "web_pages": ["http://www.middlesex.mass.edu"],
+    "alpha_two_code": "US",
+    "country": "United States",
+    "state-province": null,
+    "name": "Middlesex Community College",
+    "domains": ["middlesex.mass.edu"]
+  },
+  {
+    "web_pages": ["http://www.middlesexcc.edu"],
+    "alpha_two_code": "US",
+    "country": "United States",
+    "state-province": null,
+    "name": "Middlesex County College",
+    "domains": ["middlesexcc.edu"]
+  }
+]

@@ -40,9 +40,6 @@ def augstskolas_francija():
 def augstkolas_ar_vardu_school():
     response= requests.get(f"{visas_augstkolas}name=school")
     data = response.json()
-    # print("Augstskolas ar vārdu 'school':")
-    # for augstskola in data:
-    #     print(" ",augstskola.get("name"))
     print(f"Kopā ir {len(data)} augstskolas ar vārdu 'school'")
     print("-----------------------------------")
     return data
